@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_viewpager);
+        //在dev分支上修改内容
         BadViewPager pager = findViewById(R.id.viewpager);
         List<Map<String, String>> strings = new ArrayList<>();
         Map<String, String> map;
